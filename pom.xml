@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.clojars.kavel</groupId>
+  <artifactId>kavel</artifactId>
+  <version>0.1.0</version>
+  <packaging>jar</packaging>
+  <name>kavel</name>
+  <description>Generate AI images from Clojure with no API key and no account.</description>
+  <url>https://www.kavel.ai</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:git:https://github.com/hanshs474/kavel-clj.git</connection>
+    <url>https://github.com/hanshs474/kavel-clj</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.clojure</groupId>
+      <artifactId>clojure</artifactId>
+      <version>1.11.1</version>
+    </dependency>
+    <dependency>
+      <groupId>io.github.hanshs474</groupId>
+      <artifactId>kavel</artifactId>
+      <version>0.1.0</version>
+    </dependency>
+  </dependencies>
+</project>
