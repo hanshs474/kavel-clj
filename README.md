@@ -4,10 +4,10 @@ Generate AI images from Clojure with **no API key and no account**.
 
 ```clojure
 ;; deps.edn
-net.clojars.kavel/kavel {:mvn/version "0.1.0"}
+io.github.hanshs474/kavel-clj {:mvn/version "0.1.1"}
 
 ;; Leiningen
-[net.clojars.kavel/kavel "0.1.0"]
+[io.github.hanshs474/kavel-clj "0.1.1"]
 ```
 
 ```clojure
